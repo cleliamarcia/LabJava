@@ -3,6 +3,8 @@ import java.util.ArrayList;
 
 /**
  * @author Clelia Miguel
+ * MidTerm Test
+ *
  */
 
 public class Driver {
