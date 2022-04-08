@@ -28,7 +28,7 @@ public class ContactList {
     public void getContacts() {
         for(int i = 0; i < this.vList.size(); i++) {
             Contact contact = this.vList.get(i);
-            String vContact = i + ". " + contact.getName() + " | e-mail: " + contact.getEmail() + " | city: " + contact.getCity() + " | phone_number:(mobile ="
+            String vContact = i + ". " + contact.getName() + " | e-mail: " + contact.getEmail() + " | city: " + contact.getCity() + " | phone_number:(mobile="
                               + contact.getMobile() + ", work= "+  contact.getWork() + ", home= "+ contact.getHome() + ")";
             System.out.println(vContact);
         }
